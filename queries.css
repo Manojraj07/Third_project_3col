@@ -1,0 +1,29 @@
+@media (max-width: 52.5em) {
+  html {
+    /* 9px/16px = 56.25% */
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 47em) {
+  html {
+    font-size: 50%;
+  }
+  .cars {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .car {
+    justify-content: space-between;
+    padding: 4rem;
+  }
+
+  h2 {
+    margin: 2rem 0;
+  }
+
+  .btn {
+    margin-top: 6rem;
+  }
+}
